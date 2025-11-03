@@ -37,9 +37,9 @@ public class Giocatore extends Thread {
 
         if (trovato) {
             punteggio++;
-            System.out.println("✅ [" + nome + "] Ha indovinato! (+1 punto)");
+            System.out.println( [" + nome + "] Ha indovinato! (+1 punto)");
         } else {
-            System.out.println("❌ [" + nome + "] Non ha indovinato.");
+            System.out.println( [" + nome + "] Non ha indovinato.");
         }
     }
 
